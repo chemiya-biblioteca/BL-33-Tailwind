@@ -1,0 +1,8 @@
+npm init -y 
+npm install -D tailwindcss
+npx tailwindcss init
+cambiamos tailwind config
+creamos input.css
+cambiamos package.json
+npm run build
+npm run watch
