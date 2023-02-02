@@ -1,0 +1,10 @@
+npm init -y
+npm i tailwindcss postcss-cli autoprefixer @tailwindcss/jit
+creas las carpetas y los arcihvis como estan y en el package json poner opcion de compilacion
+npm run build:css y se llena el main.css
+en tailwind.css estilos comunes
+cuando hagamos un cambio en las carpetas y archivos de tailwind npm run build:css
+cambiamos en el archivo postcss lo de tailwind
+instalamos nodemon
+y en el de compilacion package json añadimos dev
+puedes crear breakpoints en el tailwind config

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-red-500 flex flex-col"><!--display flex, flex-col para en columna -->
+        <div class="bg-yellow-400 px-4 py-2 m-2"><!--py padding arriba y abajo y px en los lados izq y dcha y m para el margin-->
+            1
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2">
+            2
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2">
+            3
+        </div>
+    </div>
+
+    <div class="bg-red-500 flex mt-5 justify-around"><!--display flex, mt para margin top, justify end para ponerlos al final, justify-center, justify-between los separa, justify-around-->
+        <div class="bg-yellow-400 px-4 py-2 m-2"><!--py padding arriba y abajo y px en los lados izq y dcha y m para el margin-->
+            1
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2">
+            2
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2">
+            3
+        </div>
+    </div>
+
+    <div class="bg-red-500 h-64 flex flex-col mt-5 justify-center"><!-- hay que dar altura h-64 ,display flex, mt para margin top, justify end para ponerlos al final, justify-center, justify-between los separa, justify-around-->
+        <div class="bg-yellow-400 px-4 py-2 m-2"><!--py padding arriba y abajo y px en los lados izq y dcha y m para el margin-->
+            1
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2">
+            2
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2">
+            3
+        </div>
+    </div>
+
+
+    <div class="bg-red-500 h-64 flex mt-5 justify-center items-center"><!--justify center centra la columna e intems center centra lo de la fila-->
+        <div class="bg-yellow-400 px-4 py-2 m-2"><!--py padding arriba y abajo y px en los lados izq y dcha y m para el margin-->
+            1
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2">
+            2
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2">
+            3
+        </div>
+    </div>
+
+    <div class="bg-red-500 h-64 flex mt-5 justify-center"><!---->
+        <div class="bg-yellow-400 px-4 py-2 m-2 w-1/6 h-1/3"><!--py padding arriba y abajo y px en los lados izq y dcha y m para el margin-->
+            1
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2 w-1/6 h-1/3"><!--les doy ancho y alto en porcentaje -->
+            2
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2 w-1/6 h-1/3">
+            3
+        </div>
+    </div>
+
+    <div class="bg-red-500 h-64 flex mt-5 justify-center flex-wrap"><!--con el porcentaje se ajustan al tamno del paadre  pero si ponemos tamano fijo, cuando se haga muy pequeno el padre, con wrap mantienen su tamano y saltan a siguiente linea -->
+        <div class="bg-yellow-400 px-4 py-2 m-2 w-64 h-12"><!--py padding arriba y abajo y px en los lados izq y dcha y m para el margin-->
+            1
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2 w-64 h-12"><!--les doy ancho y alto pero en rem -->
+            2
+        </div>
+        <div class="bg-yellow-400 px-4 py-2 m-2 w-64 h-12">
+            3
+        </div>
+    </div>
+
+</body>
+
+</html>
