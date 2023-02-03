@@ -1,7 +1,8 @@
 npm init -y
 npm i tailwindcss postcss-cli autoprefixer @tailwindcss/jit
-creas las carpetas y los arcihvis como estan y en el package json poner opcion de compilacion
+pones lo de tailwind.config y lo de tailwind.css  y en el package json poner opcion de compilacion
 npm run build:css y se llena el main.css
+se puede abrir con live server
 en tailwind.css estilos comunes
 cuando hagamos un cambio en las carpetas y archivos de tailwind npm run build:css
 cambiamos en el archivo postcss lo de tailwind

@@ -1,0 +1,38 @@
+bg-blue
+h-64
+h-1/2
+w-1/2
+mx-auto
+h-screen
+w-full
+lg md sm
+m-6
+p-6
+border-4
+border-red
+rounded-full, rounded-lg
+container
+flex
+flex-wrap
+justify-center,justify-between,justify-start
+items-center
+text-white
+hover:
+transition duration-500
+px-2
+py-2
+mt-5
+text-5xl
+block
+hidden
+font-bold
+block
+estilos css comun para muchos elementos
+imagen de fondo
+flex-row flex-col
+gap-3
+space-x-6
+self-end
+drop-shadow-md
+text-left
+text-center
